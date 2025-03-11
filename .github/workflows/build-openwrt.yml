@@ -6,15 +6,15 @@ on:
       rep_url:
         description: '仓库地址'     
         required: true
-        default: 'https://github.com/JiaY-shi/owrt.git'
+        default: 'https://github.com/277598414/immortalwrt.git'
       branch_name:
         description: '分支'     
         required: true
-        default: 'ipq60xx-devel'
+        default: 'openwrt-24.10'
       config_file:
         description: '配置文件'     
         required: true
-        default: 'gl-ax1800.config' 
+        default: 'immortalwrt.config' 
 
 jobs:
   build:
