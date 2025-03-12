@@ -6,15 +6,15 @@ on:
       rep_url:
         description: '仓库地址'     
         required: true
-        default: 'https://github.com/277598414/immortalwrt.git'
+        default: 'https://github.com/277598414/openwrt-6.x.git'
       branch_name:
         description: '分支'     
         required: true
-        default: 'openwrt-24.10'
+        default: 'kernel-6.12'
       config_file:
         description: '配置文件'     
         required: true
-        default: 'immortalwrt.config' 
+        default: 'ipq60xx-6.12-wifi.config' 
 
 jobs:
   build:
